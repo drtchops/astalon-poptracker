@@ -1,0 +1,306 @@
+[
+    {
+		"name": "GT White Door (1st Room)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "gt_white_1"
+	},
+    {
+		"name": "GT White Door (Linus' Map)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "gt_white_2"
+	},
+    {
+		"name": "GT White Door (Tauros)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "gt_white_3"
+	},
+    {
+		"name": "Mech White Door (2nd Room)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "mech_white_1"
+	},
+    {
+		"name": "Mech White Door (Black Knight)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "mech_white_2"
+	},
+    {
+		"name": "Mech White Door (Enemy Arena)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "mech_white_3"
+	},
+    {
+		"name": "Mech White Door (Top)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "mech_white_4"
+	},
+    {
+		"name": "HotP White Door (1st Room)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "hotp_white_1"
+	},
+    {
+		"name": "HotP White Door (Griffon Claw)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "hotp_white_2"
+	},
+    {
+		"name": "HotP White Door (Boss)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "hotp_white_3"
+	},
+    {
+		"name": "RoA White Door (Worms)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "roa_white_1"
+	},
+    {
+		"name": "RoA White Door (Ascend)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "roa_white_2"
+	},
+    {
+		"name": "RoA White Door (Spike Balls)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "roa_white_3"
+	},
+    {
+		"name": "RoA White Door (Spike Spinners)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "roa_white_4"
+	},
+    {
+		"name": "RoA White Door (Skippable)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "roa_white_5"
+	},
+    {
+		"name": "Cata White Door (Top)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "cata_white_1"
+	},
+    {
+		"name": "Cata White Door (After Blue Door)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "cata_white_2"
+	},
+    {
+		"name": "Cata White Door (Prison)",
+		"type": "toggle",
+		"img": "images/doors/door_white.png",
+		"codes": "cata_white_3"
+	},
+
+
+    {
+		"name": "GT Blue Door (Bestiary)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "gt_blue_1"
+	},
+    {
+		"name": "GT Blue Door (Ring of the Ancients)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "gt_blue_2"
+	},
+    {
+		"name": "GT Blue Door (Bonus Orbs)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "gt_blue_3"
+	},
+    {
+		"name": "GT Blue Door (Ascendant Key)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "gt_blue_4"
+	},
+    {
+		"name": "GT Blue Door (Sword of Mirrors)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "gt_blue_5"
+	},
+    {
+		"name": "Mech Blue Door (Red Key)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "mech_blue_1"
+	},
+    {
+		"name": "Mech Blue Door (Shortcut)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "mech_blue_2"
+	},
+    {
+		"name": "Mech Blue Door (Music Test)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "mech_blue_3"
+	},
+    {
+		"name": "Mech Blue Door (Talaria Boots)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "mech_blue_4"
+	},
+    {
+		"name": "Mech Blue Door (Void Charm)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "mech_blue_5"
+	},
+    {
+		"name": "Mech Blue Door (Cyclops Den)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "mech_blue_6"
+	},
+    {
+		"name": "HotP Blue Door (Above Start)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "hotp_blue_1"
+	},
+    {
+		"name": "HotP Blue Door (Epimetheus)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "hotp_blue_2"
+	},
+    {
+		"name": "HotP Blue Door (Dead Maiden)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "hotp_blue_3"
+	},
+    {
+		"name": "RoA Blue Door (Flames)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "roa_blue_1"
+	},
+    {
+		"name": "RoA Blue Door (Blood Pot)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "roa_blue_2"
+	},
+    {
+		"name": "Apex Blue Door",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "apex_blue"
+	},
+    {
+		"name": "Cata Blue Door (Start)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "cata_blue_1"
+	},
+    {
+		"name": "Cata Blue Door (Bonus Orbs)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "cata_blue_2"
+	},
+    {
+		"name": "Cata Blue Door (Checkpoint)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "cata_blue_3"
+	},
+    {
+		"name": "Cata Blue Door (Lunarian Bow)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "cata_blue_4"
+	},
+    {
+		"name": "Cata Blue Door (Poison Roots)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "cata_blue_5"
+	},
+    {
+		"name": "Cata Blue Door (Prison Cyclops)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "cata_blue_6"
+	},
+    {
+		"name": "Cata Blue Door (Prison Left)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "cata_blue_7"
+	},
+    {
+		"name": "Cata Blue Door (Prison Right)",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "cata_blue_8"
+	},
+    {
+		"name": "TR Blue Door",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "tr_blue"
+	},
+    {
+		"name": "SP Blue Door",
+		"type": "toggle",
+		"img": "images/doors/door_blue.png",
+		"codes": "sp_blue"
+	},
+
+
+    {
+		"name": "Red Door (Zeek)",
+		"type": "toggle",
+		"img": "images/doors/door_red.png",
+		"codes": "red_zeek"
+	},
+    {
+		"name": "Red Door (Cathedral)",
+		"type": "toggle",
+		"img": "images/doors/door_red.png",
+		"codes": "red_cathedral"
+	},
+    {
+		"name": "Red Door (Serpent Path)",
+		"type": "toggle",
+		"img": "images/doors/door_red.png",
+		"codes": "red_sp"
+	},
+    {
+		"name": "Red Door (Tower Roots)",
+		"type": "toggle",
+		"img": "images/doors/door_red.png",
+		"codes": "red_tr"
+	},
+    {
+		"name": "Red Door (Dev Room)",
+		"type": "toggle",
+		"img": "images/doors/door_red.png",
+		"codes": "red_dev"
+	}
+]

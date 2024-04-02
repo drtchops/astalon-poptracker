@@ -1,0 +1,66 @@
+{
+    "item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "14,0",
+                "item_size": "60",
+                "h_alignment": "center",
+                "rows": [
+                    ["arias","kyuli","algus","zeek","bram"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "9,6",
+                "item_size": "36",
+                "h_alignment": "left",
+                "rows": [
+                    ["eye_red","ascendant_key","sword","bow","block","chalice","arcanist","axe"],
+                    ["eye_blue","adorned_key","boots","claw","star","icarus","meteor","whip"],
+                    ["eye_green","void","gauntlet","cloak","bell","banish","ray"]
+                ]
+            }
+        ]
+    },
+    "doors_grid": {
+      "type": "array",
+      "orientation": "vertical",
+      "content": [
+            {
+              "type": "itemgrid",
+              "h_alignment": "left",
+              "item_margin": "3,3",
+              "item_size": "16,28",
+              "rows": [
+                    ["gt_white_1","gt_white_2","gt_white_3","gt_blue_1","gt_blue_2","gt_blue_3","gt_blue_4","gt_blue_5"],
+                    ["mech_white_1","mech_white_2","mech_white_3","mech_white_4","mech_blue_1","mech_blue_2","mech_blue_3","mech_blue_4","mech_blue_5","mech_blue_6"],
+                    ["hotp_white_1","hotp_white_2","hotp_white_3","hotp_blue_1","hotp_blue_2","hotp_blue_3","red_cathedral"],
+                    ["cata_white_1","cata_white_2","cata_white_3","cata_blue_1","cata_blue_2","cata_blue_3","cata_blue_4","cata_blue_5","cata_blue_6","cata_blue_7","cata_blue_8","tr_blue"],
+                    ["roa_white_1","roa_white_2","roa_white_3","roa_white_4","roa_white_5","roa_blue_1","roa_blue_2","sp_blue","apex_blue"],
+                    ["red_zeek","red_tr","red_dev","red_sp"]
+                ]
+            }
+          ]
+      },
+      "settings_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "0,10",
+                "item_size": "100,32",
+                "rows": [
+                    ["WHITE_ON","ATTACK_ON"],
+                    ["BLUE_ON","HP_ON"],
+                    ["RED_ON","SHOP_ON"],
+                    ["APEX_ON"]
+                ]
+            }
+        ]
+    }
+}

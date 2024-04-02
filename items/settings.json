@@ -1,0 +1,128 @@
+[
+    {
+        "name": "White Key Door Rando",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/white_on.png",
+            "inherit_codes": "false",
+            "codes": "WHITE_ON"
+          },
+          {
+            "img": "images/settings/white_off.png",
+            "inherit_codes": "false",
+            "codes": "WHITE_OFF"
+          }
+        ]
+      },
+      {
+        "name": "Blue Key Door Rando",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/blue_on.png",
+            "inherit_codes": "false",
+            "codes": "BLUE_ON"
+          },
+          {
+            "img": "images/settings/blue_off.png",
+            "inherit_codes": "false",
+            "codes": "BLUE_OFF"
+          }
+        ]
+      },
+      {
+        "name": "Red Key Door Rando",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/red_on.png",
+            "inherit_codes": "false",
+            "codes": "RED_ON"
+          },
+          {
+            "img": "images/settings/red_off.png",
+            "inherit_codes": "false",
+            "codes": "RED_OFF"
+          }
+        ]
+      },
+      {
+        "name": "Attack Pickup Rando",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/attack_on.png",
+            "inherit_codes": "false",
+            "codes": "ATTACK_ON"
+          },
+          {
+            "img": "images/settings/attack_off.png",
+            "inherit_codes": "false",
+            "codes": "ATTACK_OFF"
+          }
+        ]
+      },
+      {
+        "name": "HP Pickup Rando",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/hp_on.png",
+            "inherit_codes": "false",
+            "codes": "HP_ON"
+          },
+          {
+            "img": "images/settings/hp_off.png",
+            "inherit_codes": "false",
+            "codes": "HP_OFF"
+          }
+        ]
+      },
+      {
+        "name": "Shop Rando",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/shop_on.png",
+            "inherit_codes": "false",
+            "codes": "SHOP_ON"
+          },
+          {
+            "img": "images/settings/shop_off.png",
+            "inherit_codes": "false",
+            "codes": "SHOP_OFF"
+          }
+        ]
+      },
+      {
+        "name": "Free Apex Elevator",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/apex_on.png",
+            "inherit_codes": "false",
+            "codes": "APEX_ON"
+          },
+          {
+            "img": "images/settings/apex_off.png",
+            "inherit_codes": "false",
+            "codes": "APEX_OFF"
+          }
+        ]
+      }
+]

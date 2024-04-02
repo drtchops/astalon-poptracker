@@ -1,0 +1,87 @@
+﻿{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "h_alignment": "stretch",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Doors",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "doors_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "settings_grid"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "World Map",
+                            "content": {
+                                "type": "map",
+                                "maps": ["world_map"]
+                            }
+                        },
+                        {
+                            "title": "Gorgon Tomb",
+                            "content": {
+                                "type": "map",
+                                "maps": ["tomb"]
+                            }
+                        },
+                        {
+                            "title": "Mechanism + Hall of the Phantoms",
+                            "content": {
+                                "type": "map",
+                                "maps": ["mechanism_and_hall"]
+                            }
+                        },
+                        {
+                            "title": "Catacombs",
+                            "content": {
+                                "type": "map",
+                                "maps": ["catacombs"]
+                            }
+                        },
+                        {
+                            "title": "Ruins of Ash",
+                            "content": {
+                                "type": "map",
+                                "maps": ["ruins"]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
