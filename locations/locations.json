@@ -32,7 +32,7 @@
                     },
                     {
                         "name": "Gorgon Tomb - Max HP +1 (Ring of the Ancients)",
-                        "access_rules": ["gt_blue_2,$can_star,BLUE_ON","$can_star,BLUE_OFF"],
+                        "access_rules": ["gt_blue_2,BLUE_ON","$can_star,BLUE_ON","$can_star,BLUE_OFF"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -1380,11 +1380,11 @@
             },
             {
                 "name": "Catacombs - Max HP +1 (First Room)",
-                "access_rules": ["$CATA_UPPER_TO_CATA_MID"],
+                "access_rules": ["$GT_START_TO_GT_MID"],
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +1 (First Room)",
-                        "access_rules": ["bow","chalice"],
+                        "access_rules": ["[bow]","[chalice]"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -1719,6 +1719,7 @@
                 "sections": [
                     {
                         "name": "Ruins of Ash - Attack +1",
+                        "access_rules": ["$can_star"],
                         "visibility_rules": ["ATTACK_ON"],
                         "item_count": 1
                     }
@@ -1755,7 +1756,7 @@
                 "sections": [
                     {
                         "name": "Ruins of Ash - Max HP +2 (Right Side)",
-                        "access_rules": ["gauntlet","$can_star","chalice"],
+                        "access_rules": ["gauntlet,$can_star","chalice,$can_star","gauntlet,roa_blue_1","chalice,roa_blue_1"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -1770,7 +1771,7 @@
             },
             {
                 "name": "Ruins of Ash - Max HP +5 (After Solaria)",
-                "access_rules": ["$ROA_UPPER_TO_APEX"],
+                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Max HP +5 (After Solaria)",
@@ -2009,7 +2010,7 @@
             },
             {
                 "name": "The Apex - Blood Chalice",
-                "access_rules": ["$ROA_UPPER_TO_APEX"],
+                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
                 "sections": [
                     {
                         "name": "The Apex - Blood Chalice",
@@ -2027,7 +2028,7 @@
             },
             {
                 "name": "The Apex - Max HP +1 (Blood Chalice)",
-                "access_rules": ["$ROA_UPPER_TO_APEX"],
+                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
                 "sections": [
                     {
                         "name": "The Apex - Max HP +1 (Blood Chalice)",
@@ -2046,7 +2047,7 @@
             },
             {
                 "name": "The Apex - Max HP +5 (After Heart)",
-                "access_rules": ["$ROA_UPPER_TO_APEX"],
+                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
                 "sections": [
                     {
                         "name": "The Apex - Max HP +5 (After Heart)",
@@ -2064,7 +2065,7 @@
             },
             {
                 "name": "The Apex - Blue Key",
-                "access_rules": ["$ROA_UPPER_TO_APEX"],
+                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
                 "sections": [
                     {
                         "name": "The Apex - Blue Key",
@@ -2082,7 +2083,7 @@
             },
             {
                 "name": "The Apex - GO Mode",
-                "access_rules": ["$ROA_UPPER_TO_APEX"],
+                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
                 "sections": [
                     {
                         "name": "The Apex - GO Mode",
