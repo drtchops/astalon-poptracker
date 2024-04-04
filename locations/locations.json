@@ -47,6 +47,7 @@
             },
             {
                 "name": "Gorgon Tomb - Sword of Mirrors",
+                "access_rules": ["$can_access_GT_UPPER"],
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Sword of Mirrors",
@@ -135,6 +136,7 @@
             },
             {
                 "name": "Gorgon Tomb - Gorgon Eye (Red)",
+                "access_rules": ["$can_access_GT_BOSS"],
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Gorgon Eye (Red)",
@@ -313,6 +315,7 @@
             },
             {
                 "name": "Gorgon Tomb - Red Key",
+                "access_rules": ["$can_access_GT_BOSS"],
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Red Key",
@@ -755,11 +758,11 @@
             },
             {
                 "name": "Mechanism - Red Key",
-                "access_rules": ["$can_access_MECH_LOWER"],
+                "access_rules": ["$can_access_MECH_LOWER","$can_access_MECH_UPPER,void"],
                 "sections": [
                     {
                         "name": "Mechanism - Red Key",
-                        "access_rules": ["mech_blue_1,BLUE_ON","BLUE_OFF"],
+                        "access_rules": ["$VOID_C"],
                         "visibility_rules": ["RED_ON"],
                         "item_count": 1
                     }
@@ -774,6 +777,7 @@
             },
             {
                 "name": "Hall of the Phantoms - Athena's Bell",
+                "access_rules": ["$can_access_HOTP_LOWER"],
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Athena's Bell",
@@ -790,11 +794,11 @@
             },
             {
                 "name": "Hall of the Phantoms - Amulet of Sol",
-                "access_rules": ["$MECH_LOWER_TO_HOTP_BOTTOM"],
+                "access_rules": ["$can_access_HOTP_BOTTOM","$can_access_MECH_UPPER,void"],
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Amulet of Sol",
-                        "access_rules": ["claw,eye_blue"],
+                        "access_rules": ["claw,eye_blue,$VOID_C"],
                         "item_count": 1
                     }
                 ],
@@ -1088,10 +1092,11 @@
             },
             {
                 "name": "Hall of the Phantoms - Blue Key (Amulet of Sol)",
-                "access_rules": ["$MECH_LOWER_TO_HOTP_BOTTOM"],
+                "access_rules": ["$can_access_HOTP_BOTTOM","$can_access_MECH_UPPER,void"],
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Blue Key (Amulet of Sol)",
+                        "access_rules": ["$VOID_C"],
                         "visibility_rules": ["BLUE_ON"],
                         "item_count": 1
                     }
@@ -1142,6 +1147,7 @@
             },
             {
                 "name": "Hall of the Phantoms - Red Key",
+                "access_rules": ["$can_access_HOTP_LOWER"],
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Red Key",
@@ -1160,7 +1166,7 @@
             },
             {
                 "name": "Cyclops Den - Hidden Switch Room",
-                "access_rules": ["$MECH_UPPER_TO_CD"],
+                "access_rules": ["$can_access_CD"],
                 "sections": [
                     {
                         "name": "Cyclops Den - Attack +1",
@@ -1183,7 +1189,7 @@
             },
             {
                 "name": "Cathedral - Magic Block",
-                "access_rules": ["$HOTP_BELL_TO_CATH"],
+                "access_rules": ["$can_access_CATH"],
                 "sections": [
                     {
                         "name": "Cathedral - Magic Block",
@@ -1200,7 +1206,7 @@
             },
             {
                 "name": "Cathedral - Attack +1",
-                "access_rules": ["$HOTP_BELL_TO_CATH"],
+                "access_rules": ["$can_access_CATH"],
                 "sections": [
                     {
                         "name": "Cathedral - Attack +1",
@@ -1218,7 +1224,7 @@
             },
             {
                 "name": "Cathedral - Room Below Magic Block",
-                "access_rules": ["$HOTP_BELL_TO_CATH"],
+                "access_rules": ["$can_access_CATH"],
                 "sections": [
                     {
                         "name": "Cathedral - Max HP +1 (Top Left)",
@@ -1241,7 +1247,7 @@
             },
             {
                 "name": "Cathedral - Max HP +2 (Left Climb)",
-                "access_rules": ["$HOTP_BELL_TO_CATH"],
+                "access_rules": ["$can_access_CATH"],
                 "sections": [
                     {
                         "name": "Cathedral - Max HP +2 (Left Climb)",
@@ -1259,7 +1265,7 @@
             },
             {
                 "name": "Cathedral - Max HP +5 (Bell)",
-                "access_rules": ["$HOTP_BELL_TO_CATH"],
+                "access_rules": ["$can_access_CATH"],
                 "sections": [
                     {
                         "name": "Cathedral - Max HP +5 (Bell)",
@@ -1277,7 +1283,7 @@
             },
             {
                 "name": "Catacombs - Lunarian Bow",
-                "access_rules": ["$CATA_UPPER_TO_CATA_MID"],
+                "access_rules": ["$can_access_CATA_MID"],
                 "sections": [
                     {
                         "name": "Catacombs - Lunarian Bow",
@@ -1295,7 +1301,7 @@
             },
             {
                 "name": "Catacombs - Item Chain First Room",
-                "access_rules": ["$GT_MID_TO_CATA_UPPER"],
+                "access_rules": ["$can_access_CATA_UPPER"],
                 "sections": [
                     {
                         "name": "Catacombs - Attack +1 (Item Chain Red)",
@@ -1320,7 +1326,7 @@
             },
             {
                 "name": "Catacombs - Item Chain Second Room",
-                "access_rules": ["$GT_MID_TO_CATA_UPPER"],
+                "access_rules": ["$can_access_CATA_UPPER"],
                 "sections": [
                     {
                         "name": "Catacombs - Attack +1 (Item Chain Green)",
@@ -1339,7 +1345,7 @@
             },
             {
                 "name": "Catacombs - Attack +1 (Climbable Root)",
-                "access_rules": ["$GT_MID_TO_CATA_UPPER"],
+                "access_rules": ["$can_access_CATA_UPPER"],
                 "sections": [
                     {
                         "name": "Catacombs - Attack +1 (Climbable Root)",
@@ -1357,7 +1363,7 @@
             },
             {
                 "name": "Catacombs - Poison Roots",
-                "access_rules": ["$CATA_MID_TO_CATA_ROOTS"],
+                "access_rules": ["$can_access_CATA_ROOTS"],
                 "sections": [
                     {
                         "name": "Catacombs - Attack +1 (Poison Roots)",
@@ -1380,7 +1386,7 @@
             },
             {
                 "name": "Catacombs - Max HP +1 (First Room)",
-                "access_rules": ["$GT_START_TO_GT_MID"],
+                "access_rules": ["$can_access_GT_MID"],
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +1 (First Room)",
@@ -1399,7 +1405,7 @@
             },
             {
                 "name": "Catacombs - Max HP +1 (Cyclops Arena)",
-                "access_rules": ["$GT_MID_TO_CATA_UPPER"],
+                "access_rules": ["$can_access_CATA_UPPER"],
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +1 (Cyclops Arena)",
@@ -1418,7 +1424,7 @@
             },
             {
                 "name": "Catacombs - Max HP +1 (Above Poison Roots)",
-                "access_rules": ["$CATA_MID_TO_CATA_ROOTS"],
+                "access_rules": ["$can_access_CATA_ROOTS"],
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +1 (Above Poison Roots)",
@@ -1437,7 +1443,7 @@
             },
             {
                 "name": "Catacombs - Max HP +2 (Before Poison Roots)",
-                "access_rules": ["$CATA_MID_TO_CATA_ROOTS"],
+                "access_rules": ["$can_access_CATA_ROOTS"],
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +2 (Before Poison Roots)",
@@ -1455,7 +1461,7 @@
             },
             {
                 "name": "Catacombs - Before Gemini Room",
-                "access_rules": ["$CATA_MID_TO_CATA_LOWER"],
+                "access_rules": ["$can_access_CATA_LOWER"],
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +2 (Before Gemini Top)",
@@ -1480,7 +1486,7 @@
             },
             {
                 "name": "Catacombs - Max HP +2 (Above Gemini)",
-                "access_rules": ["$CATA_MID_TO_CATA_LOWER"],
+                "access_rules": ["$can_access_CATA_LOWER"],
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +2 (Above Gemini)",
@@ -1499,7 +1505,7 @@
             },
             {
                 "name": "Catacombs - Max HP +5 (Item Chain)",
-                "access_rules": ["$GT_MID_TO_CATA_UPPER"],
+                "access_rules": ["$can_access_CATA_UPPER"],
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +5 (Item Chain)",
@@ -1518,7 +1524,7 @@
             },
             {
                 "name": "Catacombs - White Key (On Head)",
-                "access_rules": ["$CATA_UPPER_TO_CATA_MID"],
+                "access_rules": ["$can_access_CATA_MID"],
                 "sections": [
                     {
                         "name": "Catacombs - White Key (On Head)",
@@ -1536,7 +1542,7 @@
             },
             {
                 "name": "Catacombs - White Key (Dev Room)",
-                "access_rules": ["$CATA_UPPER_TO_CATA_MID"],
+                "access_rules": ["$can_access_CATA_MID"],
                 "sections": [
                     {
                         "name": "Catacombs - White Key (Dev Room)",
@@ -1555,7 +1561,7 @@
             },
             {
                 "name": "Catacombs - White Key (Prison)",
-                "access_rules": ["$CATA_LOWER_TO_TR"],
+                "access_rules": ["$can_access_TR"],
                 "sections": [
                     {
                         "name": "Catacombs - White Key (Prison)",
@@ -1573,7 +1579,7 @@
             },
             {
                 "name": "Catacombs - Blue Key (Slime Water)",
-                "access_rules": ["$CATA_UPPER_TO_CATA_MID"],
+                "access_rules": ["$can_access_CATA_MID"],
                 "sections": [
                     {
                         "name": "Catacombs - Blue Key (Slime Water)",
@@ -1591,7 +1597,7 @@
             },
             {
                 "name": "Catacombs - Blue Key (Eyeballs)",
-                "access_rules": ["$CATA_MID_TO_CATA_LOWER"],
+                "access_rules": ["$can_access_CATA_LOWER"],
                 "sections": [
                     {
                         "name": "Catacombs - Blue Key (Eyeballs)",
@@ -1609,7 +1615,7 @@
             },
             {
                 "name": "Tower Roots - Adorned Key",
-                "access_rules": ["$TR_TO_TR_PROPER"],
+                "access_rules": ["$can_access_TR_PROPER"],
                 "sections": [
                     {
                         "name": "Tower Roots - Adorned Key",
@@ -1627,7 +1633,7 @@
             },
             {
                 "name": "Tower Roots - Max HP +1 (Bottom)",
-                "access_rules": ["$TR_TO_TR_PROPER"],
+                "access_rules": ["$can_access_TR_PROPER"],
                 "sections": [
                     {
                         "name": "Tower Roots - Max HP +1 (Bottom)",
@@ -1645,7 +1651,7 @@
             },
             {
                 "name": "Tower Roots - Max HP +2 (Top)",
-                "access_rules": ["$TR_TO_TR_PROPER"],
+                "access_rules": ["$can_access_TR_PROPER"],
                 "sections": [
                     {
                         "name": "Tower Roots - Max HP +2 (Top)",
@@ -1663,7 +1669,7 @@
             },
             {
                 "name": "Tower Roots - Red Key",
-                "access_rules": ["$CATA_LOWER_TO_TR"],
+                "access_rules": ["$can_access_TR"],
                 "sections": [
                     {
                         "name": "Tower Roots - Red Key",
@@ -1681,7 +1687,7 @@
             },
             {
                 "name": "Ruins of Ash - Icarus Emblem",
-                "access_rules": ["$ROA_MID_TO_ROA_UPPER"],
+                "access_rules": ["$can_access_ROA_UPPER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Icarus Emblem",
@@ -1698,7 +1704,7 @@
             },
             {
                 "name": "Ruins of Ash - Gorgon Eye (Green)",
-                "access_rules": ["$ROA_MID_TO_ROA_UPPER"],
+                "access_rules": ["$can_access_ROA_UPPER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Gorgon Eye (Green)",
@@ -1715,7 +1721,7 @@
             },
             {
                 "name": "Ruins of Ash - Attack +1",
-                "access_rules": ["$ROA_LOWER_TO_ROA_MID"],
+                "access_rules": ["$can_access_ROA_MID"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Attack +1",
@@ -1734,7 +1740,7 @@
             },
             {
                 "name": "Ruins of Ash - Max HP +1 (Left of Ascent)",
-                "access_rules": ["$ROA_LOWER_TO_ROA_MID"],
+                "access_rules": ["$can_access_ROA_MID"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Max HP +1 (Left of Ascent)",
@@ -1752,7 +1758,7 @@
             },
             {
                 "name": "Ruins of Ash - Max HP +2 (Right Side)",
-                "access_rules": ["$ROA_LOWER_TO_ROA_MID"],
+                "access_rules": ["$can_access_ROA_MID"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Max HP +2 (Right Side)",
@@ -1771,7 +1777,7 @@
             },
             {
                 "name": "Ruins of Ash - Max HP +5 (After Solaria)",
-                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
+                "access_rules": ["$can_access_APEX"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Max HP +5 (After Solaria)",
@@ -1789,7 +1795,7 @@
             },
             {
                 "name": "Ruins of Ash - White Key (Checkpoint)",
-                "access_rules": ["$HOTP_UPPER_TO_ROA_LOWER"],
+                "access_rules": ["$can_access_ROA_LOWER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - White Key (Checkpoint)",
@@ -1807,7 +1813,7 @@
             },
             {
                 "name": "Ruins of Ash - White Key (Three Reapers)",
-                "access_rules": ["$HOTP_UPPER_TO_ROA_LOWER"],
+                "access_rules": ["$can_access_ROA_LOWER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - White Key (Three Reapers)",
@@ -1826,7 +1832,7 @@
             },
             {
                 "name": "Ruins of Ash - White Key (Torches)",
-                "access_rules": ["$ROA_LOWER_TO_ROA_MID"],
+                "access_rules": ["$can_access_ROA_MID"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - White Key (Torches)",
@@ -1844,7 +1850,7 @@
             },
             {
                 "name": "Ruins of Ash - White Key (Void Portal)",
-                "access_rules": ["$ROA_LOWER_TO_ROA_MID"],
+                "access_rules": ["$can_access_ROA_MID"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - White Key (Void Portal)",
@@ -1862,7 +1868,7 @@
             },
             {
                 "name": "Ruins of Ash - Blue Key (Face)",
-                "access_rules": ["$HOTP_UPPER_TO_ROA_LOWER"],
+                "access_rules": ["$can_access_ROA_LOWER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Blue Key (Face)",
@@ -1881,7 +1887,7 @@
             },
             {
                 "name": "Ruins of Ash - Blue Key (Flames)",
-                "access_rules": ["$HOTP_UPPER_TO_ROA_LOWER"],
+                "access_rules": ["$can_access_ROA_LOWER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Blue Key (Flames)",
@@ -1900,7 +1906,7 @@
             },
             {
                 "name": "Ruins of Ash - Blue Key (Baby Gorgon)",
-                "access_rules": ["$ROA_LOWER_TO_ROA_MID"],
+                "access_rules": ["$can_access_ROA_MID"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Blue Key (Baby Gorgon)",
@@ -1918,7 +1924,7 @@
             },
             {
                 "name": "Ruins of Ash - Blue Key (Top)",
-                "access_rules": ["$ROA_MID_TO_ROA_UPPER"],
+                "access_rules": ["$can_access_ROA_UPPER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Blue Key (Top)",
@@ -1936,7 +1942,7 @@
             },
             {
                 "name": "Ruins of Ash - Blue Key (Pot)",
-                "access_rules": ["$HOTP_UPPER_TO_ROA_LOWER"],
+                "access_rules": ["$can_access_ROA_LOWER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Blue Key (Pot)",
@@ -1955,7 +1961,7 @@
             },
             {
                 "name": "Ruins of Ash - Red Key",
-                "access_rules": ["$ROA_MID_TO_ROA_UPPER"],
+                "access_rules": ["$can_access_ROA_UPPER"],
                 "sections": [
                     {
                         "name": "Ruins of Ash - Red Key",
@@ -1974,7 +1980,7 @@
             },
             {
                 "name": "Darkness - Max HP +4",
-                "access_rules": ["$ROA_MID_TO_ROA_UPPER"],
+                "access_rules": ["$can_access_DARK"],
                 "sections": [
                     {
                         "name": "Darkness - Max HP +4",
@@ -1992,7 +1998,7 @@
             },
             {
                 "name": "Darkness - White Key",
-                "access_rules": ["$ROA_MID_TO_ROA_UPPER"],
+                "access_rules": ["$can_access_DARK"],
                 "sections": [
                     {
                         "name": "Darkness - White Key",
@@ -2010,7 +2016,7 @@
             },
             {
                 "name": "The Apex - Blood Chalice",
-                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
+                "access_rules": ["$can_access_APEX"],
                 "sections": [
                     {
                         "name": "The Apex - Blood Chalice",
@@ -2028,7 +2034,7 @@
             },
             {
                 "name": "The Apex - Max HP +1 (Blood Chalice)",
-                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
+                "access_rules": ["$can_access_APEX"],
                 "sections": [
                     {
                         "name": "The Apex - Max HP +1 (Blood Chalice)",
@@ -2047,7 +2053,7 @@
             },
             {
                 "name": "The Apex - Max HP +5 (After Heart)",
-                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
+                "access_rules": ["$can_access_APEX"],
                 "sections": [
                     {
                         "name": "The Apex - Max HP +5 (After Heart)",
@@ -2065,7 +2071,7 @@
             },
             {
                 "name": "The Apex - Blue Key",
-                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
+                "access_rules": ["$can_access_APEX"],
                 "sections": [
                     {
                         "name": "The Apex - Blue Key",
@@ -2082,11 +2088,11 @@
                 ]
             },
             {
-                "name": "The Apex - GO Mode",
-                "access_rules": ["$ROA_UPPER_TO_APEX","$FREE_APEX_ACCESS"],
+                "name": "Victory!",
+                "access_rules": ["$can_access_APEX"],
                 "sections": [
                     {
-                        "name": "The Apex - GO Mode",
+                        "name": "GO Mode",
                         "access_rules": ["$GO_MODE"],
                         "item_count": 1
                     }
@@ -2101,7 +2107,7 @@
             },
             {
                 "name": "Serpent Path - Morning Star",
-                "access_rules": ["$ROA_UPPER_TO_SP"],
+                "access_rules": ["$can_access_SP"],
                 "sections": [
                     {
                         "name": "Serpent Path - Morning Star",
@@ -2119,7 +2125,7 @@
             },
             {
                 "name": "Serpent Path - Attack +1",
-                "access_rules": ["$ROA_UPPER_TO_SP"],
+                "access_rules": ["$can_access_SP"],
                 "sections": [
                     {
                         "name": "Serpent Path - Attack +1",
@@ -2137,7 +2143,7 @@
             },
             {
                 "name": "Serpent Path - Max HP +1",
-                "access_rules": ["$ROA_UPPER_TO_SP"],
+                "access_rules": ["$can_access_SP"],
                 "sections": [
                     {
                         "name": "Serpent Path - Max HP +1",
@@ -2155,7 +2161,7 @@
             },
             {
                 "name": "Serpent Path - Blue Key (Bubbles)",
-                "access_rules": ["$ROA_UPPER_TO_SP"],
+                "access_rules": ["$can_access_SP"],
                 "sections": [
                     {
                         "name": "Serpent Path - Blue Key (Bubbles)",
@@ -2173,7 +2179,7 @@
             },
             {
                 "name": "Serpent Path - Blue Key (Morning Star)",
-                "access_rules": ["$ROA_UPPER_TO_SP"],
+                "access_rules": ["$can_access_SP"],
                 "sections": [
                     {
                         "name": "Serpent Path - Blue Key (Morning Star)",
@@ -2192,7 +2198,7 @@
             },
             {
                 "name": "Serpent Path - Blue Key (Painting)",
-                "access_rules": ["$ROA_UPPER_TO_SP"],
+                "access_rules": ["$can_access_SP"],
                 "sections": [
                     {
                         "name": "Serpent Path - Blue Key (Painting)",
@@ -2210,7 +2216,7 @@
             },
             {
                 "name": "Serpent Path - Blue Key (Arias)",
-                "access_rules": ["$ROA_UPPER_TO_SP"],
+                "access_rules": ["$can_access_SP"],
                 "sections": [
                     {
                         "name": "Serpent Path - Blue Key (Arias)",
@@ -2231,127 +2237,145 @@
                 "sections": [
                     {
                         "name": "Gift",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Knowledge",
+                        "access_rules": ["$CHEAP_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Mercy",
+                        "access_rules": ["$EXPENSIVE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Orb Seeker",
+                        "access_rules": ["$CHEAP_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Map Reveal",
+                        "access_rules": ["$can_access_TR,$can_access_ROA_UPPER"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Cartographer",
+                        "access_rules": ["$CHEAP_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Death Orb",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Death Point",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Titan's Ego",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Algus's Arcanist",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Algus's Shock Field",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Algus's Meteor Rain",
+                        "access_rules": ["$EXPENSIVE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Arias's Gorgonslayer",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Arias's Last Stand",
+                        "access_rules": ["$EXPENSIVE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Arias's Lionheart",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Kyuli's Assassin Strike",
+                        "access_rules": ["$CHEAP_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Kyuli's Bullseye",
+                        "access_rules": ["$MODERATE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Kyuli's Shining Ray",
+                        "access_rules": ["$EXPENSIVE_SHOP"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Zeek's Junkyard Hunt",
-                        "access_rules": ["zeek"],
+                        "access_rules": ["$MODERATE_SHOP,zeek"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Zeek's Orb Monger",
-                        "access_rules": ["zeek"],
+                        "access_rules": ["$MODERATE_SHOP,zeek"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Zeek's Bigger Loot",
-                        "access_rules": ["zeek"],
+                        "access_rules": ["$CHEAP_SHOP,zeek"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Bram's Golden Axe",
-                        "access_rules": ["bram"],
+                        "access_rules": ["$EXPENSIVE_SHOP,bram"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Bram's Monster Hunter",
-                        "access_rules": ["bram"],
+                        "access_rules": ["$MODERATE_SHOP,bram"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     },
                     {
                         "name": "Bram's Whiplash!",
-                        "access_rules": ["bram"],
+                        "access_rules": ["$MODERATE_SHOP,bram"],
                         "visibility_rules": ["SHOP_ON"],
                         "item_count": 1
                     }

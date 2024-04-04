@@ -385,6 +385,20 @@
             {
                 "sections": [
                     {
+                        "ref": "World Map/Gorgon Tomb - Sword of Mirrors/Gorgon Tomb - Sword of Mirrors"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mechanism_and_hall",
+                        "x": 862,
+                        "y": 912
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                         "ref": "World Map/Hall of the Phantoms - Athena's Bell/Hall of the Phantoms - Athena's Bell"
                     }
                 ],

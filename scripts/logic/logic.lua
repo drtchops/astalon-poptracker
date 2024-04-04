@@ -7,7 +7,7 @@ function can_block()
     return has("zeek") and has("block")
 end
 
--- # defines region access rules for free spex setting
+-- # defines region access rules for free apex setting
 function FREE_APEX_ACCESS()
     return has("ascendant_key") and has("APEX_ON")
 end
@@ -99,6 +99,11 @@ function DOOR_BLUE_MECH_RED()
     or has("BLUE_OFF")
 end
 
+function VOID_C()
+    return (has("[mech_blue_1]") and has("BLUE_ON")) 
+    or has("BLUE_OFF")
+end
+
 function DOOR_BLUE_MECH_SHORTCUT()
     return (has("mech_blue_2") and has("BLUE_ON")) 
     or has("BLUE_OFF")
@@ -155,14 +160,11 @@ function DOOR_RED_TR()
     or (has("RED_OFF"))
 end
 
--- # defines region access rules
-function HOTP_LOWER_TO_HOTP_START()
-  return has_access_to('MECH_UPPER') and has_access_to('HOTP_LOWER') and can_star()
-end
-
 -- # defines GO MODE
 function GO_MODE()
-  return 
-  (has("eye_red") and has("eye_blue") and has("eye_green") and has("bell"))
-  and (FREE_APEX_ACCESS() or (ROA_LOWER_TO_ROA_MID() and ROA_MID_TO_ROA_UPPER() and ROA_UPPER_TO_APEX() and APEX_TO_BOSS()))
+  return has("eye_red") 
+  and has("eye_blue") 
+  and has("eye_green") 
+  and has("bell")
+  and can_access_APEX()
 end
