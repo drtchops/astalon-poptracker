@@ -356,7 +356,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Cloak of Levitation",
-                        "access_rules": ["eye_blue,mech_white_3,mech_white_4,WHITE_ON","eye_blue,WHITE_OFF"],
+                        "access_rules": ["eye_blue,$DOOR_WHITE_MECH_ARENA,$DOOR_WHITE_MECH_TOP","eye_blue,$DOOR_WHITE_MECH_ARENA,claw"],
                         "item_count": 1
                     }
                 ],
@@ -448,7 +448,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Max HP +1 (Morning Star Blocks)",
-                        "access_rules": ["$can_star"],
+                        "access_rules": ["$can_star,claw","$can_star,$DOOR_WHITE_MECH_ARENA,$DOOR_WHITE_MECH_TOP"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }

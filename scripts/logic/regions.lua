@@ -51,8 +51,7 @@ end
 
 function MECH_UPPER_TO_HOTP_UPPER()
     return has("claw") 
-    and DOOR_WHITE_MECH_ARENA() 
-    and DOOR_WHITE_MECH_TOP()
+    and DOOR_WHITE_MECH_ARENA()
 end
 
 function MECH_UPPER_TO_CD()
@@ -94,6 +93,7 @@ function HOTP_BELL_TO_CATH()
     and has("bell")
     and has("zeek")
     and has("claw")
+    and has("void")
     and DOOR_RED_CATH()
 end
 

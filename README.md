@@ -10,7 +10,8 @@ PopTracker pack for Astalon: Tears of the Earth
     Green - Can get
     Red - Can't get
     Orange - Can get some items in a given area but not all of them
-    Yellow - Can reach by breaking logic
+    Yellow - Can get by breaking logic
+    Blue - Can scout but not get
 4. Poptracker has a broadcast view designed to be used as a display on streams and videos. You can open this popout window by clicking the radio tower button next to the settings button in the top left corner.
 
 ## Notes
