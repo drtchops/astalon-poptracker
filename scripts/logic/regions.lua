@@ -4,7 +4,7 @@ function GT_START_TO_GT_MID()
 end
 
 function GT_START_TO_GT_LEFT()
-    return has("icarus") 
+    return has("icarus")
     or has("boots")
 end
 
@@ -30,45 +30,45 @@ end
 
 -- # defines rules for MECH area connections
 function MECH_LOWER_TO_MECH_UPPER()
-    return (has("mech_white_1") or has("mech_blue_2")) 
-    and (has("claw") or has("mech_white_2")) 
+    return (has("mech_white_1") or has("mech_blue_2"))
+    and (has("claw") or has("mech_white_2"))
 end
 
 function MECH_LOWER_TO_HOTP_BOTTOM()
-    return DOOR_BLUE_MECH_RED() 
+    return DOOR_BLUE_MECH_RED()
     and has("eye_blue")
 end
 
 function MECH_LOWER_TO_HOTP_LOWER()
-    return has("claw") 
+    return has("claw")
     and (DOOR_WHITE_MECH_2ND() or DOOR_BLUE_MECH_SHORTCUT())
 end
 
 function MECH_UPPER_TO_HOTP_START()
-    return (has("eye_blue") or can_star()) 
+    return (has("eye_blue") or can_star())
     and (has("claw") or (DOOR_WHITE_MECH_ARENA() and DOOR_WHITE_MECH_TOP()))
 end
 
 function MECH_UPPER_TO_HOTP_UPPER()
-    return has("claw") 
+    return has("claw")
     and DOOR_WHITE_MECH_ARENA()
 end
 
 function MECH_UPPER_TO_CD()
-    return has("eye_blue") 
-    and DOOR_BLUE_MECH_CD() 
+    return has("eye_blue")
+    and DOOR_BLUE_MECH_CD()
     and DOOR_WHITE_MECH_ARENA()
 end
 
 -- # defines rules for HOTP area connections
 function HOTP_LOWER_TO_MECH_LOWER()
-    return has("claw") 
+    return has("claw")
     and DOOR_BLUE_HOTP_STATUE()
 end
 
 function HOTP_START_TO_HOTP_UPPER()
-    return has("void") 
-    and has("eye_green") 
+    return has("void")
+    and has("eye_green")
     and has("claw")
     and (has ("eye_blue") or (can_star() and has("bell")))
 end
@@ -241,7 +241,7 @@ function can_access_CATH()
 end
 
 function can_access_HOTP_BOTTOM()
-    return can_access_MECH_LOWER() 
+    return can_access_MECH_LOWER()
     and MECH_LOWER_TO_HOTP_BOTTOM()
 end
 
@@ -333,7 +333,7 @@ end
 function CHEAP_SHOP()
     return can_access_GT_LEFT()
   end
-  
+
 function MODERATE_SHOP()
     return can_access_MECH_LOWER()
 end

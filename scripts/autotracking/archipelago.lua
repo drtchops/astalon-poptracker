@@ -19,42 +19,42 @@ function onClear(slot_data)
             obj.Active = slot_data['randomize_health_pickups']
         end
     end
-    
+
     if slot_data['randomize_attack_pickups'] then
         local obj = Tracker:FindObjectForCode("ATTACK_ON")
         if obj then
             obj.Active = slot_data['randomize_attack_pickups']
         end
     end
-    
+
     if slot_data['randomize_white_keys'] then
         local obj = Tracker:FindObjectForCode("WHITE_ON")
         if obj then
             obj.Active = slot_data['randomize_white_keys']
         end
     end
-    
+
     if slot_data['randomize_blue_keys'] then
         local obj = Tracker:FindObjectForCode("BLUE_ON")
         if obj then
             obj.Active = slot_data['randomize_blue_keys']
         end
     end
-    
+
     if slot_data['randomize_red_keys'] then
         local obj = Tracker:FindObjectForCode("RED_ON")
         if obj then
             obj.Active = slot_data['randomize_red_keys']
         end
     end
-    
+
     if slot_data['randomize_shop'] then
         local obj = Tracker:FindObjectForCode("SHOP_ON")
         if obj then
             obj.Active = slot_data['randomize_shop']
         end
     end
-    
+
     if slot_data['free_apex_elevator'] then
         local obj = Tracker:FindObjectForCode("APEX_ON")
         if obj then
@@ -220,7 +220,7 @@ function onScout(location_id, location_name, item_id, item_name, item_player)
     -- not implemented yet :(
 end
 
--- called when a bounce message is received 
+-- called when a bounce message is received
 function onBounce(json)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onBounce: %s", dump_table(json)))

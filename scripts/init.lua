@@ -9,7 +9,7 @@ Tracker:AddItems("items/doors.json")
 Tracker:AddItems("items/settings.json")
 
 -- Maps
-Tracker:AddMaps("maps/maps.json") 
+Tracker:AddMaps("maps/maps.json")
 
 -- Locations
 Tracker:AddLocations("locations/locations.json")

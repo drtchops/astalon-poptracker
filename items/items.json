@@ -1,293 +1,293 @@
 [
     {
-		"name": "Arias",
-		"allow_disabled": "false",
-		"initial_state": "enabled",
-		"type": "toggle",
-		"img": "images/items/arias.png",
-		"codes": "arias"
-	},
+        "name": "Arias",
+        "allow_disabled": "false",
+        "initial_state": "enabled",
+        "type": "toggle",
+        "img": "images/items/arias.png",
+        "codes": "arias"
+    },
     {
-		"name": "Kyuli",
-		"allow_disabled": "false",
-		"initial_state": "enabled",
-		"type": "toggle",
-		"img": "images/items/kyuli.png",
-		"codes": "kyuli"
-	},
+        "name": "Kyuli",
+        "allow_disabled": "false",
+        "initial_state": "enabled",
+        "type": "toggle",
+        "img": "images/items/kyuli.png",
+        "codes": "kyuli"
+    },
     {
-		"name": "Algus",
-		"allow_disabled": "false",
-		"initial_state": "enabled",
-		"type": "toggle",
-		"img": "images/items/algus.png",
-		"codes": "algus"
-	},
+        "name": "Algus",
+        "allow_disabled": "false",
+        "initial_state": "enabled",
+        "type": "toggle",
+        "img": "images/items/algus.png",
+        "codes": "algus"
+    },
     {
-		"name": "Zeek",
-		"type": "toggle",
-		"img": "images/items/zeek.png",
-		"codes": "zeek"
-	},
+        "name": "Zeek",
+        "type": "toggle",
+        "img": "images/items/zeek.png",
+        "codes": "zeek"
+    },
     {
-		"name": "Bram",
-		"type": "toggle",
-		"img": "images/items/bram.png",
-		"codes": "bram"
-	},
+        "name": "Bram",
+        "type": "toggle",
+        "img": "images/items/bram.png",
+        "codes": "bram"
+    },
     {
-		"name": "Gorgon Eye (Red)",
-		"type": "toggle",
-		"img": "images/items/eye_red.png",
-		"codes": "eye_red"
-	},
+        "name": "Gorgon Eye (Red)",
+        "type": "toggle",
+        "img": "images/items/eye_red.png",
+        "codes": "eye_red"
+    },
     {
-		"name": "Gorgon Eye (Blue)",
-		"type": "toggle",
-		"img": "images/items/eye_blue.png",
-		"codes": "eye_blue"
-	},
+        "name": "Gorgon Eye (Blue)",
+        "type": "toggle",
+        "img": "images/items/eye_blue.png",
+        "codes": "eye_blue"
+    },
     {
-		"name": "Gorgon Eye (Green)",
-		"type": "toggle",
-		"img": "images/items/eye_green.png",
-		"codes": "eye_green"
-	},
+        "name": "Gorgon Eye (Green)",
+        "type": "toggle",
+        "img": "images/items/eye_green.png",
+        "codes": "eye_green"
+    },
     {
-		"name": "Gorgonheart",
-		"type": "toggle",
-		"img": "images/items/gorgonheart.png",
-		"codes": "gorgonheart"
-	},
+        "name": "Gorgonheart",
+        "type": "toggle",
+        "img": "images/items/gorgonheart.png",
+        "codes": "gorgonheart"
+    },
     {
-		"name": "Ring of the Ancients",
-		"type": "toggle",
-		"img": "images/items/ancients_ring.png",
-		"codes": "ancients_ring"
-	},
+        "name": "Ring of the Ancients",
+        "type": "toggle",
+        "img": "images/items/ancients_ring.png",
+        "codes": "ancients_ring"
+    },
     {
-		"name": "Dead Maiden's Ring",
-		"type": "toggle",
-		"img": "images/items/maiden_ring.png",
-		"codes": "maiden_ring"
-	},
+        "name": "Dead Maiden's Ring",
+        "type": "toggle",
+        "img": "images/items/maiden_ring.png",
+        "codes": "maiden_ring"
+    },
     {
-		"name": "Sword of Mirrors",
-		"type": "toggle",
-		"img": "images/items/sword.png",
-		"codes": "sword"
-	},
+        "name": "Sword of Mirrors",
+        "type": "toggle",
+        "img": "images/items/sword.png",
+        "codes": "sword"
+    },
     {
-		"name": "Linus' Map",
-		"type": "toggle",
-		"img": "images/items/map.png",
-		"codes": "map"
-	},
+        "name": "Linus' Map",
+        "type": "toggle",
+        "img": "images/items/map.png",
+        "codes": "map"
+    },
     {
-		"name": "Ascendant Key",
-		"type": "toggle",
-		"img": "images/items/ascendant_key.png",
-		"codes": "ascendant_key"
-	},
+        "name": "Ascendant Key",
+        "type": "toggle",
+        "img": "images/items/ascendant_key.png",
+        "codes": "ascendant_key"
+    },
     {
-		"name": "Adorned Key",
-		"type": "toggle",
-		"img": "images/items/adorned_key.png",
-		"codes": "adorned_key"
-	},
+        "name": "Adorned Key",
+        "type": "toggle",
+        "img": "images/items/adorned_key.png",
+        "codes": "adorned_key"
+    },
     {
-		"name": "Banish Spell",
-		"type": "toggle",
-		"img": "images/items/banish.png",
-		"codes": "banish"
-	},
+        "name": "Banish Spell",
+        "type": "toggle",
+        "img": "images/items/banish.png",
+        "codes": "banish"
+    },
     {
-		"name": "Void Charm",
-		"type": "toggle",
-		"img": "images/items/void.png",
-		"codes": "void"
-	},
+        "name": "Void Charm",
+        "type": "toggle",
+        "img": "images/items/void.png",
+        "codes": "void"
+    },
     {
-		"name": "Talaria Boots",
-		"type": "toggle",
-		"img": "images/items/boots.png",
-		"codes": "boots"
-	},
+        "name": "Talaria Boots",
+        "type": "toggle",
+        "img": "images/items/boots.png",
+        "codes": "boots"
+    },
     {
-		"name": "Cloak of Levitation",
-		"type": "toggle",
-		"img": "images/items/cloak.png",
-		"codes": "cloak"
-	},
+        "name": "Cloak of Levitation",
+        "type": "toggle",
+        "img": "images/items/cloak.png",
+        "codes": "cloak"
+    },
     {
-		"name": "Cyclops Idol",
-		"type": "toggle",
-		"img": "images/items/cyclops.png",
-		"codes": "cyclops"
-	},
+        "name": "Cyclops Idol",
+        "type": "toggle",
+        "img": "images/items/cyclops.png",
+        "codes": "cyclops"
+    },
     {
-		"name": "Athena's Bell",
-		"type": "toggle",
-		"img": "images/items/bell.png",
-		"codes": "bell"
-	},
+        "name": "Athena's Bell",
+        "type": "toggle",
+        "img": "images/items/bell.png",
+        "codes": "bell"
+    },
     {
-		"name": "Amulet of Sol",
-		"type": "toggle",
-		"img": "images/items/amulet.png",
-		"codes": "amulet"
-	},
+        "name": "Amulet of Sol",
+        "type": "toggle",
+        "img": "images/items/amulet.png",
+        "codes": "amulet"
+    },
     {
-		"name": "Griffon Claw",
-		"type": "toggle",
-		"img": "images/items/claw.png",
-		"codes": "claw"
-	},
+        "name": "Griffon Claw",
+        "type": "toggle",
+        "img": "images/items/claw.png",
+        "codes": "claw"
+    },
     {
-		"name": "Boreas Gauntlet",
-		"type": "toggle",
-		"img": "images/items/gauntlet.png",
-		"codes": "gauntlet"
-	},
+        "name": "Boreas Gauntlet",
+        "type": "toggle",
+        "img": "images/items/gauntlet.png",
+        "codes": "gauntlet"
+    },
     {
-		"name": "Icarus Emblem",
-		"type": "toggle",
-		"img": "images/items/icarus.png",
-		"codes": "icarus"
-	},
+        "name": "Icarus Emblem",
+        "type": "toggle",
+        "img": "images/items/icarus.png",
+        "codes": "icarus"
+    },
     {
-		"name": "Blood Chalice",
-		"type": "toggle",
-		"img": "images/items/chalice.png",
-		"codes": "chalice"
-	},
+        "name": "Blood Chalice",
+        "type": "toggle",
+        "img": "images/items/chalice.png",
+        "codes": "chalice"
+    },
     {
-		"name": "Lunarian Bow",
-		"type": "toggle",
-		"img": "images/items/bow.png",
-		"codes": "bow"
-	},
+        "name": "Lunarian Bow",
+        "type": "toggle",
+        "img": "images/items/bow.png",
+        "codes": "bow"
+    },
     {
-		"name": "Prince's Crown",
-		"type": "toggle",
-		"img": "images/items/crown.png",
-		"codes": "crown"
-	},
+        "name": "Prince's Crown",
+        "type": "toggle",
+        "img": "images/items/crown.png",
+        "codes": "crown"
+    },
     {
-		"name": "Magic Block",
-		"type": "toggle",
-		"img": "images/items/block.png",
-		"codes": "block"
-	},
+        "name": "Magic Block",
+        "type": "toggle",
+        "img": "images/items/block.png",
+        "codes": "block"
+    },
     {
-		"name": "Morning Star",
-		"type": "toggle",
-		"img": "images/items/star.png",
-		"codes": "star"
-	},
+        "name": "Morning Star",
+        "type": "toggle",
+        "img": "images/items/star.png",
+        "codes": "star"
+    },
     {
-		"name": "Monster Ball",
-		"type": "toggle",
-		"img": "images/items/monster.png",
-		"codes": "monster"
-	},
+        "name": "Monster Ball",
+        "type": "toggle",
+        "img": "images/items/monster.png",
+        "codes": "monster"
+    },
     {
-		"name": "Gil",
-		"type": "toggle",
-		"img": "images/items/gil.png",
-		"codes": "gil"
-	},
+        "name": "Gil",
+        "type": "toggle",
+        "img": "images/items/gil.png",
+        "codes": "gil"
+    },
     {
-		"name": "White Key",
-		"type": "consumable",
-		"img": "images/items/key_white.png",
-		"codes": "key_white",
-		"max_quantity": 19
-	},
+        "name": "White Key",
+        "type": "consumable",
+        "img": "images/items/key_white.png",
+        "codes": "key_white",
+        "max_quantity": 19
+    },
     {
-		"name": "Blue Key",
-		"type": "consumable",
-		"img": "images/items/key_blue.png",
-		"codes": "key_blue",
-		"max_quantity": 34
-	},
+        "name": "Blue Key",
+        "type": "consumable",
+        "img": "images/items/key_blue.png",
+        "codes": "key_blue",
+        "max_quantity": 34
+    },
     {
-		"name": "Red Key",
-		"type": "consumable",
-		"img": "images/items/key_red.png",
-		"codes": "key_red",
-		"max_quantity": 5
-	},
+        "name": "Red Key",
+        "type": "consumable",
+        "img": "images/items/key_red.png",
+        "codes": "key_red",
+        "max_quantity": 5
+    },
     {
-		"name": "Attack +1",
-		"type": "consumable",
-		"img": "images/items/attack_up.png",
-		"codes": "attack_1",
-		"max_quantity": 1
-	},
+        "name": "Attack +1",
+        "type": "consumable",
+        "img": "images/items/attack_up.png",
+        "codes": "attack_1",
+        "max_quantity": 1
+    },
     {
-		"name": "Max HP +1",
-		"type": "consumable",
-		"img": "images/items/hp_up.png",
-		"codes": "hp_1",
-		"max_quantity": 1
-	},
+        "name": "Max HP +1",
+        "type": "consumable",
+        "img": "images/items/hp_up.png",
+        "codes": "hp_1",
+        "max_quantity": 1
+    },
     {
-		"name": "Max HP +2",
-		"type": "consumable",
-		"img": "images/items/hp_up.png",
-		"codes": "hp_2",
-		"max_quantity": 1
-	},
+        "name": "Max HP +2",
+        "type": "consumable",
+        "img": "images/items/hp_up.png",
+        "codes": "hp_2",
+        "max_quantity": 1
+    },
     {
-		"name": "Max HP +3",
-		"type": "consumable",
-		"img": "images/items/hp_up.png",
-		"codes": "hp_3",
-		"max_quantity": 1
-	},
+        "name": "Max HP +3",
+        "type": "consumable",
+        "img": "images/items/hp_up.png",
+        "codes": "hp_3",
+        "max_quantity": 1
+    },
     {
-		"name": "Max HP +4",
-		"type": "consumable",
-		"img": "images/items/hp_up.png",
-		"codes": "hp_4",
-		"max_quantity": 1
-	},
+        "name": "Max HP +4",
+        "type": "consumable",
+        "img": "images/items/hp_up.png",
+        "codes": "hp_4",
+        "max_quantity": 1
+    },
     {
-		"name": "Max HP +5",
-		"type": "consumable",
-		"img": "images/items/hp_up.png",
-		"codes": "hp_5",
-		"max_quantity": 1
-	},
+        "name": "Max HP +5",
+        "type": "consumable",
+        "img": "images/items/hp_up.png",
+        "codes": "hp_5",
+        "max_quantity": 1
+    },
     {
-		"name": "Algus's Arcanist",
-		"type": "toggle",
-		"img": "images/items/arcanist.png",
-		"codes": "arcanist"
-	},
+        "name": "Algus's Arcanist",
+        "type": "toggle",
+        "img": "images/items/arcanist.png",
+        "codes": "arcanist"
+    },
     {
-		"name": "Algus's Meteor Rain",
-		"type": "toggle",
-		"img": "images/items/meteor.png",
-		"codes": "meteor"
-	},
+        "name": "Algus's Meteor Rain",
+        "type": "toggle",
+        "img": "images/items/meteor.png",
+        "codes": "meteor"
+    },
     {
-		"name": "Kyuli's Shining Ray",
-		"type": "toggle",
-		"img": "images/items/ray.png",
-		"codes": "ray"
-	},
+        "name": "Kyuli's Shining Ray",
+        "type": "toggle",
+        "img": "images/items/ray.png",
+        "codes": "ray"
+    },
     {
-		"name": "Bram's Golden Axe",
-		"type": "toggle",
-		"img": "images/items/axe.png",
-		"codes": "axe"
-	},
+        "name": "Bram's Golden Axe",
+        "type": "toggle",
+        "img": "images/items/axe.png",
+        "codes": "axe"
+    },
     {
-		"name": "Bram's Whiplash!",
-		"type": "toggle",
-		"img": "images/items/whip.png",
-		"codes": "whip"
-	}
+        "name": "Bram's Whiplash!",
+        "type": "toggle",
+        "img": "images/items/whip.png",
+        "codes": "whip"
+    }
 ]

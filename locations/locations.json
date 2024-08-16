@@ -11,6 +11,10 @@
                     {
                         "name": "Gorgon Tomb - Gorgonheart",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Gorgon Tomb - Switch (Gorgonheart)",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -32,8 +36,12 @@
                     },
                     {
                         "name": "Gorgon Tomb - Max HP +1 (Ring of the Ancients)",
-                        "access_rules": ["gt_blue_2,BLUE_ON","$can_star,BLUE_ON","$can_star,BLUE_OFF"],
+                        "access_rules": ["gt_blue_2,BLUE_ON", "$can_star,BLUE_ON", "$can_star,BLUE_OFF"],
                         "visibility_rules": ["HP_ON"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gorgon Tomb - Crystal (Ring of the Ancients)",
                         "item_count": 1
                     }
                 ],
@@ -51,7 +59,7 @@
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Sword of Mirrors",
-                        "access_rules": ["gt_blue_5,BLUE_ON","BLUE_OFF"],
+                        "access_rules": ["gt_blue_5,BLUE_ON", "BLUE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -86,7 +94,7 @@
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Ascendant Key",
-                        "access_rules": ["gt_blue_4,BLUE_ON","BLUE_OFF"],
+                        "access_rules": ["gt_blue_4,BLUE_ON", "BLUE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -104,7 +112,7 @@
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Banish Spell",
-                        "access_rules": ["gt_blue_4,BLUE_ON","BLUE_OFF"],
+                        "access_rules": ["gt_blue_4,BLUE_ON", "BLUE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -122,7 +130,7 @@
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Void Charm",
-                        "access_rules": ["eye_red,RED_ON","RED_OFF"],
+                        "access_rules": ["eye_red,RED_ON", "RED_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -156,7 +164,7 @@
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Attack +1",
-                        "access_rules": ["eye_green,claw","eye_green,zeek,bell"],
+                        "access_rules": ["eye_green,claw", "eye_green,zeek,bell"],
                         "visibility_rules": ["ATTACK_ON"],
                         "item_count": 1
                     }
@@ -175,7 +183,7 @@
                 "sections": [
                     {
                         "name": "Gorgon Tomb - Max HP +5 (Ascendant Key)",
-                        "access_rules": ["claw,gt_blue_4,BLUE_ON","claw,BLUE_OFF"],
+                        "access_rules": ["claw,gt_blue_4,BLUE_ON", "claw,BLUE_OFF"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -338,7 +346,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Talaria Boots",
-                        "access_rules": ["mech_blue_4,BLUE_ON","BLUE_OFF"],
+                        "access_rules": ["mech_blue_4,BLUE_ON", "BLUE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -356,7 +364,10 @@
                 "sections": [
                     {
                         "name": "Mechanism - Cloak of Levitation",
-                        "access_rules": ["eye_blue,$DOOR_WHITE_MECH_ARENA,$DOOR_WHITE_MECH_TOP","eye_blue,$DOOR_WHITE_MECH_ARENA,claw"],
+                        "access_rules": [
+                            "eye_blue,$DOOR_WHITE_MECH_ARENA,$DOOR_WHITE_MECH_TOP",
+                            "eye_blue,$DOOR_WHITE_MECH_ARENA,claw"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -374,7 +385,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Gorgon Eye (Blue)",
-                        "access_rules": ["claw","mech_white_3,mech_white_4,WHITE_ON","WHITE_OFF"],
+                        "access_rules": ["claw", "mech_white_3,mech_white_4,WHITE_ON", "WHITE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -392,7 +403,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Attack +1 (Above Volantis)",
-                        "access_rules": ["claw,eye_blue","claw,eye_green,void","claw,$can_star,bell"],
+                        "access_rules": ["claw,eye_blue", "claw,eye_green,void", "claw,$can_star,bell"],
                         "visibility_rules": ["ATTACK_ON"],
                         "item_count": 1
                     }
@@ -448,7 +459,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Max HP +1 (Morning Star Blocks)",
-                        "access_rules": ["$can_star,claw","$can_star,$DOOR_WHITE_MECH_ARENA,$DOOR_WHITE_MECH_TOP"],
+                        "access_rules": ["$can_star,claw", "$can_star,$DOOR_WHITE_MECH_ARENA,$DOOR_WHITE_MECH_TOP"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -467,7 +478,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Max HP +3 (Above Checkpoint)",
-                        "access_rules": ["claw,mech_blue_4,mech_blue_5,BLUE_ON","claw,BLUE_OFF"],
+                        "access_rules": ["claw,mech_blue_4,mech_blue_5,BLUE_ON", "claw,BLUE_OFF"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -504,7 +515,12 @@
                 "sections": [
                     {
                         "name": "Mechanism - White Key (Black Knight)",
-                        "access_rules": ["mech_white_1,BLUE_OFF","mech_white_1,BLUE_ON","mech_blue_2,BLUE_ON","WHITE_OFF,BLUE_OFF"],
+                        "access_rules": [
+                            "mech_white_1,BLUE_OFF",
+                            "mech_white_1,BLUE_ON",
+                            "mech_blue_2,BLUE_ON",
+                            "WHITE_OFF,BLUE_OFF"
+                        ],
                         "visibility_rules": ["WHITE_ON"],
                         "item_count": 1
                     }
@@ -724,7 +740,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Blue Key (Checkpoint)",
-                        "access_rules": ["mech_white_3,WHITE_ON","WHITE_OFF"],
+                        "access_rules": ["mech_white_3,WHITE_ON", "WHITE_OFF"],
                         "visibility_rules": ["BLUE_ON"],
                         "item_count": 1
                     }
@@ -743,7 +759,7 @@
                 "sections": [
                     {
                         "name": "Mechanism - Blue Key (Pot)",
-                        "access_rules": ["mech_white_3,WHITE_ON","WHITE_OFF"],
+                        "access_rules": ["mech_white_3,WHITE_ON", "WHITE_OFF"],
                         "visibility_rules": ["BLUE_ON"],
                         "item_count": 1
                     }
@@ -758,7 +774,7 @@
             },
             {
                 "name": "Mechanism - Red Key",
-                "access_rules": ["$can_access_MECH_LOWER","$can_access_MECH_UPPER,void"],
+                "access_rules": ["$can_access_MECH_LOWER", "$can_access_MECH_UPPER,void"],
                 "sections": [
                     {
                         "name": "Mechanism - Red Key",
@@ -794,7 +810,7 @@
             },
             {
                 "name": "Hall of the Phantoms - Amulet of Sol",
-                "access_rules": ["$can_access_HOTP_BOTTOM","$can_access_MECH_UPPER,void"],
+                "access_rules": ["$can_access_HOTP_BOTTOM", "$can_access_MECH_UPPER,void"],
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Amulet of Sol",
@@ -816,7 +832,7 @@
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Griffon Claw",
-                        "access_rules": ["claw","hotp_white_2,WHITE_ON","WHITE_OFF"],
+                        "access_rules": ["claw", "hotp_white_2,WHITE_ON", "WHITE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -852,7 +868,10 @@
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Dead Maiden's Ring",
-                        "access_rules": ["claw,bell,banish,sword,hotp_blue_3,BLUE_ON","claw,bell,banish,sword,BLUE_OFF"],
+                        "access_rules": [
+                            "claw,bell,banish,sword,hotp_blue_3,BLUE_ON",
+                            "claw,bell,banish,sword,BLUE_OFF"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -930,7 +949,7 @@
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Max HP +5 (Old Man)",
-                        "access_rules": ["eye_green,claw,bell,banish","eye_green,claw,chalice"],
+                        "access_rules": ["eye_green,claw,bell,banish", "eye_green,claw,chalice"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -1059,7 +1078,7 @@
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Blue Key (Epimetheus)",
-                        "access_rules": ["claw,mech_white_1,WHITE_ON","claw,mech_blue_2","claw,WHITE_OFF"],
+                        "access_rules": ["claw,mech_white_1,WHITE_ON", "claw,mech_blue_2", "claw,WHITE_OFF"],
                         "visibility_rules": ["BLUE_ON"],
                         "item_count": 1
                     }
@@ -1092,7 +1111,7 @@
             },
             {
                 "name": "Hall of the Phantoms - Blue Key (Amulet of Sol)",
-                "access_rules": ["$can_access_HOTP_BOTTOM","$can_access_MECH_UPPER,void"],
+                "access_rules": ["$can_access_HOTP_BOTTOM", "$can_access_MECH_UPPER,void"],
                 "sections": [
                     {
                         "name": "Hall of the Phantoms - Blue Key (Amulet of Sol)",
@@ -1287,7 +1306,7 @@
                 "sections": [
                     {
                         "name": "Catacombs - Lunarian Bow",
-                        "access_rules": ["cata_blue_3,cata_blue_4,BLUE_ON","BLUE_OFF"],
+                        "access_rules": ["cata_blue_3,cata_blue_4,BLUE_ON", "BLUE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -1330,7 +1349,7 @@
                 "sections": [
                     {
                         "name": "Catacombs - Attack +1 (Item Chain Green)",
-                        "access_rules": ["eye_red,eye_blue,$can_star","eye_red,eye_blue,eye_green"],
+                        "access_rules": ["eye_red,eye_blue,$can_star", "eye_red,eye_blue,eye_green"],
                         "visibility_rules": ["ATTACK_ON"],
                         "item_count": 1
                     }
@@ -1390,7 +1409,7 @@
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +1 (First Room)",
-                        "access_rules": ["[bow]","[chalice]"],
+                        "access_rules": ["[bow]", "[chalice]"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -1428,7 +1447,7 @@
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +1 (Above Poison Roots)",
-                        "access_rules": ["bell","icarus,claw"],
+                        "access_rules": ["bell", "icarus,claw"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -1490,7 +1509,12 @@
                 "sections": [
                     {
                         "name": "Catacombs - Max HP +2 (Above Gemini)",
-                        "access_rules": ["claw,gauntlet,bell","claw,chalice","$can_block,bell,gauntlet","$can_block,bell,chalice"],
+                        "access_rules": [
+                            "claw,gauntlet,bell",
+                            "claw,chalice",
+                            "$can_block,bell,gauntlet",
+                            "$can_block,bell,chalice"
+                        ],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -1762,7 +1786,12 @@
                 "sections": [
                     {
                         "name": "Ruins of Ash - Max HP +2 (Right Side)",
-                        "access_rules": ["gauntlet,$can_star","chalice,$can_star","gauntlet,roa_blue_1","chalice,roa_blue_1"],
+                        "access_rules": [
+                            "gauntlet,$can_star",
+                            "chalice,$can_star",
+                            "gauntlet,roa_blue_1",
+                            "chalice,roa_blue_1"
+                        ],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -1872,7 +1901,7 @@
                 "sections": [
                     {
                         "name": "Ruins of Ash - Blue Key (Face)",
-                        "access_rules": ["bow,roa_white_1,WHITE_ON","bow,WHITE_OFF"],
+                        "access_rules": ["bow,roa_white_1,WHITE_ON", "bow,WHITE_OFF"],
                         "visibility_rules": ["BLUE_ON"],
                         "item_count": 1
                     }
@@ -1891,7 +1920,7 @@
                 "sections": [
                     {
                         "name": "Ruins of Ash - Blue Key (Flames)",
-                        "access_rules": ["gauntlet,roa_white_1,WHITE_ON","gauntlet,WHITE_OFF"],
+                        "access_rules": ["gauntlet,roa_white_1,WHITE_ON", "gauntlet,WHITE_OFF"],
                         "visibility_rules": ["BLUE_ON"],
                         "item_count": 1
                     }
@@ -1946,7 +1975,7 @@
                 "sections": [
                     {
                         "name": "Ruins of Ash - Blue Key (Pot)",
-                        "access_rules": ["roa_white_1,WHITE_ON","WHITE_OFF"],
+                        "access_rules": ["roa_white_1,WHITE_ON", "WHITE_OFF"],
                         "visibility_rules": ["BLUE_ON"],
                         "item_count": 1
                     }
@@ -2020,7 +2049,7 @@
                 "sections": [
                     {
                         "name": "The Apex - Blood Chalice",
-                        "access_rules": ["adorned_key,$can_star,apex_blue,BLUE_ON","adorned_key,$can_star,BLUE_OFF"],
+                        "access_rules": ["adorned_key,$can_star,apex_blue,BLUE_ON", "adorned_key,$can_star,BLUE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -2038,7 +2067,7 @@
                 "sections": [
                     {
                         "name": "The Apex - Max HP +1 (Blood Chalice)",
-                        "access_rules": ["apex_blue,BLUE_ON","BLUE_OFF"],
+                        "access_rules": ["apex_blue,BLUE_ON", "BLUE_OFF"],
                         "visibility_rules": ["HP_ON"],
                         "item_count": 1
                     }
@@ -2111,7 +2140,7 @@
                 "sections": [
                     {
                         "name": "Serpent Path - Morning Star",
-                        "access_rules": ["sp_blue,BLUE_ON","BLUE_OFF"],
+                        "access_rules": ["sp_blue,BLUE_ON", "BLUE_OFF"],
                         "item_count": 1
                     }
                 ],
@@ -2183,7 +2212,7 @@
                 "sections": [
                     {
                         "name": "Serpent Path - Blue Key (Morning Star)",
-                        "access_rules": ["$can_block","sp_blue,$can_star"],
+                        "access_rules": ["$can_block", "sp_blue,$can_star"],
                         "visibility_rules": ["BLUE_ON"],
                         "item_count": 1
                     }
@@ -2390,5 +2419,5 @@
                 ]
             }
         ]
-    }                                  
+    }
 ]
